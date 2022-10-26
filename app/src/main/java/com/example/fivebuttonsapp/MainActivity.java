@@ -110,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(launchIntent);
                 }else {
                     Intent i = new Intent(android.content.Intent.ACTION_VIEW);
-                    i.setData(Uri.parse("https://play.google.com/store/apps/details?id=com.package.address"));
+                    i.setData(Uri.parse("https://play.google.com/store/apps/details?id=com.vootflix.app"));
                     startActivity(i);
                 }
             }
